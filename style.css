@@ -1,4 +1,8 @@
-body {background-color: aqua}
+body {
+    background: linear-gradient(90deg,#B3E5FC,#81D4FA,cyan,#3399FF,#2196F3,#1E88E5,cyan,#81D4FA,#B3E5FC);
+    background-size: 400%,400%;
+    animation: cielanime 90s linear infinite;
+}
 .titre{
     background: linear-gradient(90deg, red ,orange, gold, green, blue, violet);
     display:inline-block;
@@ -44,4 +48,12 @@ img {
     transition: transform 0.3s;
 }.chat.agrandie {
     transform: scale(1.5);
+}
+@keyframes cielanime {
+    from {
+        background-position: 0% 50%;
+    }
+    to {
+        background-position: 400% 50%;
+    }
 }
