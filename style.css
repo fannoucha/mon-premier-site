@@ -58,3 +58,10 @@ img {
         background-position: 400% 50%;
     }
 }
+.UpdateN1 {
+    border: solid gold;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+}
