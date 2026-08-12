@@ -51,6 +51,11 @@ img {
 }.chat.agrandie {
     transform: scale(1.5);
 }
+.lang {
+    display: flex;
+    flex-direction: row;
+    right: 10;
+}
 @keyframes cielanime {
     from {
         background-position: 0% 50%;
