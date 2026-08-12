@@ -55,6 +55,8 @@ img {
     display: flex;
     flex-direction: row;
     right: 10;
+    font-size: 15px;
+    gap: 3px;
 }
 @keyframes cielanime {
     from {
